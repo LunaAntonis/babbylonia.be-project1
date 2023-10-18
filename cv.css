@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    color: #A07855FF;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.contact, .education, .experience, .skills, .languages {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li i {
+    margin-right: 5px;
+}
+

@@ -1,0 +1,58 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+
+}
+
+.date {
+    color: #A07855FF;
+}
+
+.experience {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    flex: 1;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    flex: 3;
+    text-align: left;
+}

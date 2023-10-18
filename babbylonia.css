@@ -1,0 +1,478 @@
+/* CSS in "babbylonia.css" */
+body {
+    background-color: #F6EEE9;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    padding: 20px;
+    border: 2px solid #333;
+    width: 95%;
+    background-color: #EADBDD;
+    text-align: center;
+    justify-content: center;
+    color: #A07855FF;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer > div {
+    max-width: 40%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.textlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6EEE9;
+    color: #A07855FF;
+}
+
+.textrechts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF;
+    margin-right: 50px;
+}
+
+.buttons {
+    position: relative;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Apply circular styles to buttons */
+.circular-button1 {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EADBDD;
+    color: #A07855FF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Change 'relative' to 'absolute' for precise positioning */
+    right: 542px; /* Adjust this value to move the button to the left */
+    top: 340px;
+}
+
+
+.circular-button2{
+    width: 200px; /* Adjust the width as needed */
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EADBDD;
+    color: #A07855FF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Change 'relative' to 'absolute' for precise positioning */
+    right: -122px; /* Adjust this value to move the button to the left */
+    top: 536px;
+}
+
+
+
+
+.circular-button3 {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EADBDD;
+    color: #A07855FF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Change 'relative' to 'absolute' for precise positioning */
+    right: 542px; /* Adjust this value to move the button to the left */
+    top: 745px;
+}
+
+
+.circular-button4 {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px;
+    border-radius: 50%;
+    background-color: #EADBDD;
+    color: #A07855FF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Change 'relative' to 'absolute' for precise positioning */
+    right: -122px; /* Adjust this value to move the button to the left */
+    top: 941px;
+}
+
+.p1{
+
+    position: absolute;
+    z-index: 5;
+    top: 413px;
+    left: 367px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 10;
+    height: 10%;
+
+}
+
+
+.p2{
+    position: absolute;
+    z-index: 1;
+    top: 600px;
+    right: -215px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 45%;
+    height: 45%;
+
+}
+
+
+.p3{
+    position: absolute;
+    z-index: 5;
+    top: 815px;
+    right: 963px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 10%;
+    height: 10%;
+
+}
+
+
+
+.p4{
+    position: absolute;
+    z-index: 2;
+    top: 1008px;
+    right: -215px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 45%;
+    height: 45%;
+}
+
+.introduction{
+    
+    
+    position: absolute;
+    z-index: 2;
+    top: 92px;
+    left: 647px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 45%;
+    height: 45%;
+}
+
+.header2{
+    
+    
+    position: absolute;
+    z-index: 2;
+    top: 156px;
+    left: 597px; 
+    padding: 20px;
+    background-color: #F6EEE9;
+    color: #A07855FF ;
+    width: 45%;
+    height: 45%;
+} 
+    
+
+/* Your existing CSS code here */
+
+#selfPortrait {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #EADBDD; /* Customize the border color */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto;
+    margin-top: 20px; /* Add some space at the top */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+}
+
+.hobby {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.description {
+    flex: 3;
+    text-align: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+
+}
+
+.date {
+    color: #A07855FF;
+}
+
+#experience {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    flex: 1;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    flex: 3;
+    text-align: left;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    color: #A07855FF;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.contact, .education, .experience, .skills, .languages {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li i {
+    margin-right: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    color: #A07855FF;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+}
+
+.contact-form, .contact-email {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form form {
+    flex: 2;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #EADBDD;
+    color: #A07855FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    flex: 1;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    flex: 3;
+    text-align: left;
+}
+
+.email {
+    color: #A07855FF;
+}

@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    color: #A07855FF;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+}
+
+.contact-form, .contact-email {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form form {
+    flex: 2;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #EADBDD;
+    color: #A07855FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    flex: 1;
+}
+
+.icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.info {
+    flex: 3;
+    text-align: left;
+}
+
+.email {
+    color: #A07855FF;
+}

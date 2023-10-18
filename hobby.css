@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A07855FF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6EEE9;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #EADBDD;
+    
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #A07855FF;
+}
+
+.hobby {
+    background-color: #EADBDD;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.description {
+    flex: 3;
+    text-align: left;
+}
